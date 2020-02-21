@@ -1,0 +1,117 @@
+*{
+padding: 0;
+margin: 0;
+color: #aaa;
+text-align: center;
+}
+
+body{
+	background-color: #240909;
+	font-family: Arial; 
+}
+
+
+div#main-container{
+	width: 1200px;
+	height: 1000px;
+	background-color: #371F1F;
+	margin: 1em auto;
+	padding: 1em;
+}
+
+div#header{
+	height: 15%;
+	background-color: #9A3932;
+	margin: 5px;
+	border-radius: 1em;
+}
+
+div#nav{
+	height: 10%;
+	background-color: #D3775A;
+	margin:5px;
+	border-radius: 1em;	
+}
+
+ 	#menu{
+		list-style: none;
+	}
+	#menu ul li{
+		display: inline-block;
+	}
+
+	#menu ul li a{
+		color: white;
+		display: block;
+		padding: 20px 80px;
+		text-decoration: none;
+	}
+
+	#menu ul li a:hover{
+		background-color: pink;
+	}
+
+div#body{
+	height: 50%;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+div#section{
+	margin:1em auto;
+	height: 95%;
+	width: 65%;
+	background-color: white;
+	float:left;
+	border-radius: 1em;
+}
+
+div#aside{
+	margin: 1em auto;
+	width: 33%;
+	height: 95%;
+	float: right;
+	background-color: #704F46;
+	border-radius: 1em;
+}
+
+	#indice ul li{
+		list-style: none;
+	}
+	
+
+	#indice ul li a{
+		color: white;
+		display: block;
+		padding: 20px 20px;
+		text-decoration: none;
+	}
+
+	#indice ul li a:hover{
+		background-color: pink;
+	}
+
+div#footer{
+	height: 20%;
+	background-color: #F25757;
+	margin:5px;
+	border-radius: 1em;
+}
+
+div#main-container-chiles{
+	width: 1200px;
+	height: auto;
+	background-color: #371F1F;
+	margin: 1em auto;
+	padding: 1em;
+}
+
+div#estiloChile{
+	height: 800px;
+	height: auto;
+	background-color: #CC595A;
+	border-radius: 1em;
+	padding: 1em;
+	margin: 2em;
+}
+
